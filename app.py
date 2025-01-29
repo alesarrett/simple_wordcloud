@@ -9,12 +9,12 @@ def create_wordcloud(text, additional_stopwords=None, max_words=None, width=800,
     """
     # Basic list of Italian articles and common words
     italian_stopwords = {
-        'il', 'lo', 'la', 'i', 'gli', 'le',  # articoli determinativi
+        'l', 'il', 'lo', 'la', 'i', 'gli', 'le',  # articoli determinativi
         'un', 'uno', 'una',                   # articoli indeterminativi
-        'del', 'dello', 'della', 'dei', 'degli', 'delle',  # preposizioni articolate
-        'al', 'allo', 'alla', 'ai', 'agli', 'alle',
-        'dal', 'dallo', 'dalla', 'dai', 'dagli', 'dalle',
-        'nel', 'nello', 'nella', 'nei', 'negli', 'nelle',
+        'di', 'del', 'dell', 'dello', 'della', 'dei', 'degli', 'delle',  # preposizioni articolate
+        'a', 'ad', 'al', 'all', 'allo', 'alla', 'ai', 'agli', 'alle',
+        'da', 'dal', 'dallo', 'dalla', 'dai', 'dagli', 'dalle',
+        'in', 'nel', 'nello', 'nella', 'nei', 'negli', 'nelle',
         'sul', 'sullo', 'sulla', 'sui', 'sugli', 'sulle',
     }
 
